@@ -13,8 +13,11 @@ Welcome to Skill Sync, a decentralized application (DApp) built on the Aptos blo
 ## How to run it
 
 [http://localhost:3000/](http://localhost:3000/)
+
 [http://localhost:3000/onboarding](http://localhost:3000/onboarding)
+
 [http://localhost:3000/dashboard](http://localhost:3000/dashboard)
+
 [http://localhost:3000/skilldisplay](http://localhost:3000/skilldisplay)
 
 
