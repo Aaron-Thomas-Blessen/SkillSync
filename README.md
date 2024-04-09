@@ -10,6 +10,14 @@ Welcome to Skill Sync, a decentralized application (DApp) built on the Aptos blo
 
 [Flow Diagram](https://drive.google.com/file/d/1ez7PkN2pQ_qearSsbYqbjgKDTH10AjQU/view?usp=sharing)
 
+## How to run it
+
+[http://localhost:3000/](http://localhost:3000/)
+[http://localhost:3000/onboarding](http://localhost:3000/onboarding)
+[http://localhost:3000/dashboard](http://localhost:3000/dashboard)
+[http://localhost:3000/skilldisplay](http://localhost:3000/skilldisplay)
+
+
 ## Introduction
 
 This README provides an overview of the features, usage instructions, and contact information for our project. Read on to learn how you can easily find hackathon partners with Verified Skills with our intuitive platform.
