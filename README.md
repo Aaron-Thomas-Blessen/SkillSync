@@ -10,7 +10,11 @@ Welcome to Skill Sync, a decentralized application (DApp) built on the Aptos blo
 
 [Flow Diagram](https://drive.google.com/file/d/1ez7PkN2pQ_qearSsbYqbjgKDTH10AjQU/view?usp=sharing)
 
-## How to run it
+## How to run it locally
+
+```
+npm run start
+```
 
 [http://localhost:3000/](http://localhost:3000/)
 
