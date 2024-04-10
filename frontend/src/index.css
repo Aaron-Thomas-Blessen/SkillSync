@@ -34,6 +34,17 @@ h2 {
   background: linear-gradient(260deg, #fe3072, #ff5940);
 }
 
+.button-margin {
+  margin-top: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 .secondary-button {
   color: rgb(121, 119, 119);
   background-color: rgb(255, 255, 255);

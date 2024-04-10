@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   const [people, setPeople] = useState([]);
@@ -22,7 +23,6 @@ const Dashboard = () => {
         skills: ["CSS", "HTML"],
         imageUrl: "https://i.imgur.com/OckVkRo.jpeg",
       },
-
     ]);
   }, []);
 
@@ -67,7 +67,14 @@ const Dashboard = () => {
               alt={person.name}
               className="person-image"
             />
-            <h3>{person.name}</h3>
+            <Link
+              to="/skilldisplay"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              {" "}
+              {/* Make names clickable to SkillDisplay */}
+              <h3>{person.name}</h3>
+            </Link>
             <p>{person.details}</p>
             <p>Skills: {person.skills.join(", ")}</p>
             <button onClick={() => handleConnect(person.user_id, true)}>

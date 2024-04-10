@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";  
 import Nav from "../components/Nav";
 
 const OnBoarding = () => {
@@ -14,16 +15,23 @@ const OnBoarding = () => {
     url: "",
     about: "",
     matches: [],
+    skills: "",
+    linkedIn: "",
+    location: "",
+    Github: ""
   });
 
+  const navigate = useNavigate();  
+
   const handleSubmit = async (e) => {
-    console.log("submitted");
+    e.preventDefault(); 
+    console.log("Form submitted", formData);
+    
+    navigate('/dashboard');  
   };
 
-  const handleChange = async (e) => {
-    console.log("e", e);
-    const value =
-      e.target.type === "checkbox" ? e.target.checked : e.target.value;
+  const handleChange = (e) => {
+    const value = e.target.type === "checkbox" ? e.target.checked : e.target.value;
     const name = e.target.name;
 
     setFormData((prevState) => ({
