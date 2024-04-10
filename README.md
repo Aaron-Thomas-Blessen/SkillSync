@@ -2,7 +2,7 @@
 
 ![My Image](https://drive.google.com/uc?id=1kW5I_yo1TOFeWJ8Gau0O07cPFE4TN48J)
 
-Welcome to Skill Sync, a decentralized application (DApp) built on the Aptos blockchain using Move language and Petra Wallet. Skill Sync aims to connect individuals with verified skills to find suitable hackathon partners efficiently. With Skill Sync, you can discover potential collaborators based on their verified skills, experience, and interests.
+Welcome to Skill Sync, a decentralized application (DApp) built on the Aptos blockchain using Move language and Petra Wallet. Tech enthusiasts nowadays tend to fake their Tech Stack or skills acquired on platforms like LinkedIn, GitHub, etc. To overcome this, Skill Sync aims to connect individuals with skills verified using the Zero-Knowledge Protocol to find suitable hackathon partners efficiently. With Skill Sync, you can discover potential collaborators based on their ZK-verified skills, experience, and interests.
 
 [Demo Video](https://youtu.be/JMTFcnusVhY?si=zjnuDpsoChfRGuGd)
 
@@ -31,7 +31,7 @@ This README provides an overview of the features, usage instructions, and contac
 
 ## Features
 
-- **Decentralized Identity Verification**: Users can verify their skills and experiences through the blockchain, ensuring transparency and authenticity.
+- **Decentralized Identity Verification**: Users can verify their skills and experiences through the Blockchain using Zero Knowledge Verification techniques, ensuring transparency and authenticity.
 
 - **Skill Search**: Users can search for Teammates based on their verified skills.
 
